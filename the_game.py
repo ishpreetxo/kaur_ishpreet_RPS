@@ -1,7 +1,7 @@
 from random import randint
 from games import winlose, gameVARS, criteria
-gameVARS.computerlives=1
-gameVARS.playerlives=1
+gameVARS.computerlives=5
+gameVARS.playerlives=5
 
 #loop created to run the game
 while gameVARS.player is False:
